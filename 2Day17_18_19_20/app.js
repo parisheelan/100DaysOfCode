@@ -23,4 +23,16 @@ addForm.addEventListener("submit", function (e) {
   li.appendChild(bookName);
   li.appendChild(deleteBtn);
   list.appendChild(li);
+
+  deleteBtn.classList.add("delete");
+  bookName.classList.add("name");
+});
+
+const hideBox = document.querySelector("#hide");
+hideBox.addEventListener("change", function (e) {
+  if (hideBox.checked) {
+    list.style.display = "none";
+  } else {
+    list.style.display = "initial";
+  }
 });
