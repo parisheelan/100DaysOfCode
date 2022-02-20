@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial;
+  background: rgb(43, 43, 43);
+  color: white;
+}
+
+p,
+h1 {
+  text-align: center;
+}
+header h1 {
+  margin-top: 30px;
+  font-size: 4.5rem;
+}
+section {
+  width: 50%;
+  margin: auto;
+}
+section .color {
+  width: 200px;
+  height: 200px;
+  border: solid 3px white;
+  margin: 10px;
+  border-radius: 20px;
+}
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.blue {
+  background-color: blue;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top {
+  margin-top: 30px;
+}
+button {
+  display: block;
+  margin: auto;
+  padding: 20px 40px;
+  background: rgb(75, 75, 236);
+  margin-top: 30px;
+  color: white;
+  border-radius: 15px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+button:hover {
+  border: solid 4px rgb(75, 75, 236);
+  padding: 16px 36px;
+  background: transparent;
+}
+.color:hover {
+  border: solid 3px black;
+}
